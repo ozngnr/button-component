@@ -12,7 +12,7 @@ body {
 }
 
 main {
-  padding: 1rem 3rem;
+  padding: 1em 3em;
 }
 
 h1 {
@@ -21,9 +21,6 @@ h1 {
 }
 
 .btn {
-  display: flex;
-  align-items: center;
-  text-align: center;
   font-family: "Noto Sans JP", sans-serif;
   font-size: 14px;
   border: none;
@@ -132,13 +129,11 @@ h1 {
   background: none;
 }
 
-/* .btn-row {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-} */
-
 .btn-grp {
-  display: inline-block;
-  margin-right: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 3em;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
